@@ -1,0 +1,80 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{science}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{pgfplots}
+\usepackage{circuitikz}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{booktabs} 
+\usepackage{colortbl} 
+\usepackage{xfrac}
+\usepackage{gensymb}
+
+\usetikzlibrary{calc}
+
+\title{\textbf{Ottica:} esperienza 5}
+\author{Canteri Marco, Biasi Lorenzo, Damiani Emily}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\hspace{-1.9em}
+In questa esperienza abbiamo verificato la legge di Beer, che spiega come cambia l'intensità del raggio emergente rispetto a quello incidente quando questo passa attraverso un materiale. Tale relazione verrà verificata sia per cambiamenti di concentrazione della soluzione di solfato di rame, che per cambiamenti nella lunghezza del cammino percorso dalla luce. 
+\end{abstract}
+
+\begin{body}
+\section{Procedimento}
+La legge da verificare sperimentalmente è la seguente: 
+\begin{equation}
+I_m = A \cdot e^{-\alpha (C) L}
+\end{equation}
+dove $I_m$ indica l'intensità del raggio emergente, mentre $\alpha$ una costante che è funzione della concentrazione della soluzione e $L$ la lunghezza del cammino percorso dalla luce nella soluzione. \\
+Durante l'esperimento la legge è stata provata sia per piccoli cambiamenti di concentrazione a $L$ fissata e per cambiamenti di lunghezza per la stessa soluzione. \\
+Per il primo set di misure l'apparato sperimentale è stato montato come segue. Il laser punta verso una cuvetta con lunghezza di base $L = 10.4 mm$ contenente della soluzione di $CuSO_4$ , mentre il raggio uscente viene ricevuto dal foto detector che ne segnala l'intensità $I_m$. Per verificare la legge ci siamo serviti di due laser a luce rossa e arancione. Inoltre, per ogni laser abbiamo preparato $6$ soluzioni alle seguenti concentrazioni: 
+\begin{itemize}
+\item $0.8 M$
+\item $0.6 M $
+\item $0.5 M$
+\item $0.25 M$
+\item $0.125 M$
+\item $0.062 M $ 
+\end{itemize}
+Le provette alle diverse concentrazioni sono state preparate a partire da un'unica soluzione di solfato di rame $1 M$, doluita poi con acqua. \\
+Durante la preparazione delle provette si è stati attenti a tener mescolata la soluzione e ad eseguire le misure al fotodetector il più velocemente possibile, perché non si verificasse un mutamente nell'intensità del raggio incidente, che avrebbe inficiato le misure di intensità $I_m$. Oltre alle $6$ misure a concentrazione diverse, abbiamo preso anche le misure di provette contenente la sostanza $1M$ e sola acqua. \\
+Le misure per piccoli cambiamenti di lunghezza sono state effettuate nelle stesse condizioni. Stavolta si è mantenuta fissa, variando invece le lunghezze dei contenitori della soluzione.\\
+Durante l'esperimento è molto utile registrare il valore dell'intensità di fondo della stanza. Questa potrebbe affliggere le vere misure con un errore per intensità di luce emergente basse.  
+
+\section{Analisi Dati}
+Dividiamo la discussione sui set di misure in due parti, relative alle due modalità differenti per verificare la legge di Beer. 
+\subsection{Analisi delle misure in funzione della concentrazione}
+La prima parte dell'analisi riguarda la verifica della legge di beer in funzione della concentrazione a lunghezza L fissata. La legge di Beer ha forma esponenziale, ma può essere facilmente ridotta a una relazione lineare: 
+\begin{equation}
+ln(I_m) = ln(A) - \alpha(C) L
+\end{equation}
+La dipendenza diretta con la concentrazione è messa in evidenza riscrivendo la costanza $\alpha$ come il prodotto della costante caratteristica della soluzione $K$ e $C$.
+\begin{equation}
+ln(I_m) = ln(A) - K L C
+\end{equation}
+Avendo a disposizione il set di dati in funzione della concentrazione, si procede con la regressione lineare della relazione precedente.   
+
+
+
+
+
+\subsection{Analisi delle misure in funzione della lunghezza}
+
+
+
+
+
+
+
+
+\end{body}
+\end{document}
